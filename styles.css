@@ -1,8 +1,76 @@
 body {
     background-color: #fffbf7;
 }
+header {
+    background-color: #c0bcfa;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #120257;
+    border-radius: 5px;
+}
+.navBar ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.promo {
+    padding: 10px;
+    margin: 100px auto;
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+video {
+    width: 50%;
+    height: auto;
+}
+
+.explicacionRoyal h2 {
+    color: #a7a47d;
+    font-family: verdana;
+}
+
+.explicacionRoyal p {
+    color: #8b8b8bcc;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+.explicacionRoyal form {
+    display: flex;
+}
+
+.explicacionRoyal form > p {
+    color: #8b8b8bcc;
+    text-align: center;
+
+}
+
+.explicacionRoyal form > input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #120257;
+}
+
+.explicacionRoyal form > button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #120257;
+    background-color: #413897;
+    color: #fff;
+}
+
+.explicacionRoyal form > button:hover {
+    background-color: #120257;
+    color: #fff;
+}
+
 h1 {
-    color: #025157;
+    color: #1d2d2e;
     text-align: center;
 }
 p {
@@ -11,7 +79,7 @@ p {
     font-size: 15px;
 }
 button {
-    background-color: #025157;
+    background-color: #413897;
     color: #fff;
     
 }
